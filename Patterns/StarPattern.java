@@ -9,8 +9,97 @@ class StarPattern {
         try (Scanner scanner = new Scanner(System.in)) {
             int n = scanner.nextInt();
             // change the method here and run it
-            pattern8(n);
+            pattern15(n);
         }
+    }
+
+    static void pattern15(int n) {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j <=i; j++) {
+                
+            }
+
+        }
+    }
+
+    static void pattern14(int n) {
+        for (int i = 0; i < n; i++) {
+            for (char j = 'A'; j <= 'A' + i; j++) {
+                System.out.print(j);
+            }
+            System.out.println();
+        }
+    }
+
+    // pattern13
+    static void pattern13(int n) {
+        int number = 1;
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print(number);
+                number += 1; // because we need increased element for new line
+            }
+            System.out.println();
+        }
+    }
+
+    // pattern12
+    static void pattern12(int n) {
+        int space = 2 * n - 2;
+        for (int i = 1; i <= n; i++) {
+            // number
+            for (int j = 1; j <= i; j++) {
+                System.out.print(j + " ");
+            }
+            // space
+            for (int j = 1; j < space; j++) {
+                System.out.print(" ");
+            }
+            // number
+            for (int j = i; j >= 1; j--) {
+                System.out.print(j + " ");
+            }
+            System.out.println("");
+            space -= 2; // to reduce the space by 2 times every time so that it becomes reverse cone
+
+        }
+    }
+
+    // pattern11
+    static void pattern11(int n) {
+        int value = 1;
+        for (int i = 1; i <= n; i++) {
+            if (i % 2 == 0) {
+                value = 0;
+            } else {
+                value = 1;
+            }
+            for (int j = 1; j <= i; j++) {
+                System.out.print(value);
+                value = 1 - value; // for flip
+            }
+            System.out.println("");
+        }
+    }
+
+    // pattern 10
+    static void pattern10(int n) {
+        for (int i = 1; i <= 2 * n - 1; i++) {
+            int stars = i;
+            if (i > n) {
+                stars = 2 * n - i;
+            }
+            for (int j = 1; j <= stars; j++) {
+                System.out.print("*");
+            }
+            System.out.println("");
+        }
+    }
+
+    // pattern9
+    static void pattern9(int n) {
+        pattern7(n);
+        pattern8(n);
     }
 
     // pattern8
