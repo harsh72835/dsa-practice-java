@@ -8,7 +8,7 @@ class StarPattern {
         try (Scanner scanner = new Scanner(System.in)) {
             int n = scanner.nextInt();
             // change the method here and run it
-            pattern22(n);
+            pattern10(n);
         }
     }
 
@@ -140,7 +140,6 @@ class StarPattern {
                 System.out.print(" ");
             }
             System.out.println();
-            ;
         }
     }
 
