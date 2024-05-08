@@ -1,3 +1,5 @@
+package Arrays;
+
 public class ElementAssignmentsDemo {
 
 	public static void main(String[] args) {

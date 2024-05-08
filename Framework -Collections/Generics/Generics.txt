@@ -1,0 +1,7 @@
+generics
+
+- objective
+  to provide type safety
+  to solve problem related to type casting in collection
+  to enable developer to write less redundant code 
+  

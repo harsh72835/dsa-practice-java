@@ -1,3 +1,4 @@
+package Arrays;
 public class VariableAssignments {
 
 	public static void main(String[] args) {

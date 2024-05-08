@@ -1,0 +1,14 @@
+
+collection interface method
+
+ diff b/w collectiona and collections/ 
+ 
+ collection - 
+    root interface of collection framework 
+    LIST,SET, QUEUE are derived from same Object
+
+
+collections - 
+  is utility class for collection objects 
+  which contains methods like below 
+  sort(), shufle(), reverse(), binarySearch(), disjoint() and many more.... 
