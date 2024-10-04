@@ -20,6 +20,10 @@ public class OurGenericList<T> implements Iterator<T> {
         return items[index];
     }
 
+    public int size() {
+        return size;
+    }
+
     public Iterator<T> iterator() {
         return new OurGenericListIterator(this);
     }
@@ -46,9 +50,4 @@ public class OurGenericList<T> implements Iterator<T> {
         }
 
     }
-
-    public int size() {
-        return size;
-    }
-
 }
