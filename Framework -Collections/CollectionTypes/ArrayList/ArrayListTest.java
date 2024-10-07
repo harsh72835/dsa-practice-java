@@ -11,6 +11,7 @@ public class ArrayListTest {
     alist.add(22);
     alist.add(3);
 
+    Integer[] arr = alist.toArray(new Integer[0]); // conversion method for arraylist to array
     alist.set(1, 25);
 
     List<Integer> blist = new ArrayList<>(alist);
