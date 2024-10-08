@@ -1,7 +1,6 @@
 package CollectionTypes.PriorityQueue;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
 import java.util.PriorityQueue;
 
@@ -24,10 +23,10 @@ public class PriorityqueueTest {
     pq.offer(12312);
     pq.offer(123);
 
-    // while (!pq.isEmpty()) {
-    // System.out.println(pq.peek());
-    // pq.poll();
-    // }
+    while (!pq.isEmpty()) {
+      System.out.println(pq.peek());
+      pq.poll();
+    }
 
     // get top 2 elements from priority queue and add into list
     List<Integer> li = new ArrayList<>();
