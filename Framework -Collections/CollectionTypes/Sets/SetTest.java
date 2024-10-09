@@ -13,8 +13,9 @@ public class SetTest {
 
     System.out.println(hs);
 
-    // hs.retainAll(hs) -- give me intersection of two set or intersection between set and any collection
-  
+    // hs.retainAll(hs) -- give me intersection of two set or intersection between
+    // set and any collection
+    // the original set will be changed with retainAll() method
 
   }
 

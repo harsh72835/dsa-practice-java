@@ -1,6 +1,7 @@
 <h1>Set</h1>
 
 - store unique elements only
+- elements are not sorted or not even in order (in which they are added to list)
 
 <h2>Methods </h2>
 
